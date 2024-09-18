@@ -1,6 +1,6 @@
 # HeatMap Tracker
 Takes in a JSON of player data which contains a path to a map image and player positions then shows where these players have been on the map during the match and where they moved
-![ScreenShot](https://raw.github.com/MeriMorganov/HeatMapTracker/screenshot.png)
+![ScreenShot](https://raw.github.com/MeriMorganov/HeatMapTracker/HeatMapTracker/screenshot.png)
 
 ## Data
 This folder contains JSON data of player telemetry during a match. 
