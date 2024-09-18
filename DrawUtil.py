@@ -69,7 +69,7 @@ class DrawUtil:
         
     @staticmethod  
     def rgb_to_hex(color):
-        """Convert RGB tuple to hex color code."""
+        #Convert RGB tuple to hex color code.
         return "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
         
     @staticmethod     
