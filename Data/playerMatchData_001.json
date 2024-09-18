@@ -1,7 +1,8 @@
 {
   "levelMap": {
     "width": 1000,
-    "height": 1000
+    "height": 1000,
+	"mapPath": "Maps/Map_forest_001.png"
   },
   "players": [
     {

@@ -1,0 +1,204 @@
+{
+  "levelMap": {
+    "width": 1000,
+    "height": 1000,
+    "mapPath": "Maps/Map_forest_001.png"
+  },
+  "players": [
+    {
+      "playerId": "player_006",
+      "positionData": [
+        {
+          "x": 200,
+          "y": 500,
+          "rotation": 45.0,
+          "timestamp": 1694957400
+        },
+        {
+          "x": 250,
+          "y": 530,
+          "rotation": 90.0,
+          "timestamp": 1694957460
+        },
+        {
+          "x": 300,
+          "y": 580,
+          "rotation": 120.0,
+          "timestamp": 1694957520
+        },
+        {
+          "x": 270,
+          "y": 610,
+          "rotation": 60.0,
+          "timestamp": 1694957580
+        },
+        {
+          "x": 320,
+          "y": 630,
+          "rotation": 100.0,
+          "timestamp": 1694957640
+        },
+        {
+          "x": 340,
+          "y": 670,
+          "rotation": 140.0,
+          "timestamp": 1694957700
+        },
+        {
+          "x": 380,
+          "y": 690,
+          "rotation": 180.0,
+          "timestamp": 1694957760
+        },
+        {
+          "x": 400,
+          "y": 750,
+          "rotation": 210.0,
+          "timestamp": 1694957820
+        },
+        {
+          "x": 420,
+          "y": 770,
+          "rotation": 240.0,
+          "timestamp": 1694957880
+        },
+        {
+          "x": 450,
+          "y": 800,
+          "rotation": 270.0,
+          "timestamp": 1694957940
+        }
+      ]
+    },
+    {
+      "playerId": "player_007",
+      "positionData": [
+        {
+          "x": 700,
+          "y": 200,
+          "rotation": 0.0,
+          "timestamp": 1694957400
+        },
+        {
+          "x": 740,
+          "y": 240,
+          "rotation": 30.0,
+          "timestamp": 1694957460
+        },
+        {
+          "x": 780,
+          "y": 280,
+          "rotation": 60.0,
+          "timestamp": 1694957520
+        },
+        {
+          "x": 820,
+          "y": 320,
+          "rotation": 90.0,
+          "timestamp": 1694957580
+        },
+        {
+          "x": 850,
+          "y": 350,
+          "rotation": 120.0,
+          "timestamp": 1694957640
+        },
+        {
+          "x": 880,
+          "y": 380,
+          "rotation": 150.0,
+          "timestamp": 1694957700
+        },
+        {
+          "x": 920,
+          "y": 420,
+          "rotation": 180.0,
+          "timestamp": 1694957760
+        },
+        {
+          "x": 960,
+          "y": 450,
+          "rotation": 210.0,
+          "timestamp": 1694957820
+        },
+        {
+          "x": 980,
+          "y": 500,
+          "rotation": 240.0,
+          "timestamp": 1694957880
+        },
+        {
+          "x": 1000,
+          "y": 550,
+          "rotation": 270.0,
+          "timestamp": 1694957940
+        }
+      ]
+    },
+    {
+      "playerId": "player_008",
+      "positionData": [
+        {
+          "x": 300,
+          "y": 600,
+          "rotation": 90.0,
+          "timestamp": 1694957400
+        },
+        {
+          "x": 350,
+          "y": 630,
+          "rotation": 130.0,
+          "timestamp": 1694957460
+        },
+        {
+          "x": 380,
+          "y": 680,
+          "rotation": 160.0,
+          "timestamp": 1694957520
+        },
+        {
+          "x": 410,
+          "y": 720,
+          "rotation": 200.0,
+          "timestamp": 1694957580
+        },
+        {
+          "x": 450,
+          "y": 770,
+          "rotation": 240.0,
+          "timestamp": 1694957640
+        },
+        {
+          "x": 490,
+          "y": 800,
+          "rotation": 270.0,
+          "timestamp": 1694957700
+        },
+        {
+          "x": 530,
+          "y": 850,
+          "rotation": 300.0,
+          "timestamp": 1694957760
+        },
+        {
+          "x": 580,
+          "y": 890,
+          "rotation": 330.0,
+          "timestamp": 1694957820
+        },
+        {
+          "x": 620,
+          "y": 930,
+          "rotation": 0.0,
+          "timestamp": 1694957880
+        },
+        {
+          "x": 670,
+          "y": 960,
+          "rotation": 30.0,
+          "timestamp": 1694957940
+        }
+      ]
+    }
+  ]
+}

@@ -31,8 +31,8 @@ class HeatMap:
         except Exception as e:
             raise RuntimeError(f"An unexpected error occurred while loading the heatmap data: {e}")
 
-    def draw_player_triangle(self, x, y, rotation):
-        triangle, points = DrawUtil.create_triangle( x, y, rotation)
+    def draw_player_triangle(self, x, y, rotation, color):
+        triangle, points = DrawUtil.create_triangle( x, y, rotation,color)
         triangle.draw(self.win)
 
         # Calculate the bottom middle point (midpoint of rotated_point2 and rotated_point3)
@@ -43,18 +43,21 @@ class HeatMap:
         return Point(bottom_middle_x, bottom_middle_y)
     
     def draw_heatmap(self, heatmap_data):
-        if heatmap_data:
+        if heatmap_data:  
+            map_image = DrawUtil.create_image(self.window_size/2,self.window_size/2,self.window_size,self.window_size,heatmap_data.levelMap.mapPath)
+            map_image.draw(self.win)
             for player in heatmap_data.players:
+                randomColor = DrawUtil.random_color()
                 position_data = sorted(player.positionData, key=lambda pos: pos.timestamp) 
                 prev_point = None
-                worldOffset = self.max_axis/self.window_size
+                worldOffset = (self.max_axis/self.window_size)
                 for position in position_data:
                     x = position.x/worldOffset
                     y = position.y/worldOffset
-                    current_point = self.draw_player_triangle(x, y, position.rotation)
+                    current_point = self.draw_player_triangle(x, y, position.rotation,randomColor)
                     
                     if prev_point:
-                        line = DrawUtil.create_line(prev_point,current_point)
+                        line = DrawUtil.create_line(prev_point,current_point,randomColor)
                         line.draw(self.win)
 
                     # Update the previous point to be the current one
@@ -74,7 +77,7 @@ def open_file_dialog():
 
 
 if __name__ == "__main__":
-    win = GraphWin("Heatmap Tracker", window_size, window_size)
+    win = DrawUtil.create_window("Heatmap Tracker", (window_size, window_size))
     heatmap = HeatMap(win)
 
     json_file = open_file_dialog()

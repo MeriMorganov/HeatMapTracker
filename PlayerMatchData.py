@@ -6,10 +6,10 @@ class Position:
         self.timestamp = timestamp
 
 class LevelMap:
-    def __init__(self, width= 100, height= 100):
+    def __init__(self, width= 100, height= 100,mapPath=''):
         self.width = width
         self.height = height
-        
+        self.mapPath = mapPath
         
 class Player:
     def __init__(self, playerId, positionData):
